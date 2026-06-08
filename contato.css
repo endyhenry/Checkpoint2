@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+
+form{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(105, 107, 105, 0.253)  
+    
+
+}
+
+h1{
+    color: rgba(62, 98, 143, 0.692);
+    font-family: Arial;
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+
+
+}
+
+button[type="submit"]{
+    background-color: rgba(62, 98, 143, 0.692);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+button[type="submit"]:hover{
+    background-color: rgba(14, 54, 102, 0.822);
+    transition: 0.7s;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #666363;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea{
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #666363;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: rgba(57, 14, 248, 0.432);
+    outline: rgba(10, 10, 10, 0.692);
+    transition: 0.7s;
+}

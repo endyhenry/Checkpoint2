@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Backendy</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de contato Backendy</h1>
+        <form  action="/processar" method="POST"> 
+
+
+
+        <label for="nome">Nome:</label>
+        <input type="text" required minlength="3" maxlength="50" id="nome" name="nome" required><br><br>
+
+         <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+         <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required><br><br>
+
+         <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" required minlength="10" maxlength="500" name="mensagem" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+
+
+
+    </form>
+    
+</body>
+</html>
